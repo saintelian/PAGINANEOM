@@ -1,0 +1,543 @@
+/* =========================
+   RESET + BASE
+========================= */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* =========================
+   BODY + FONDO (FIX iOS)
+========================= */
+body {
+  font-family: 'Poppins', sans-serif;
+
+  background: url('IMAGENES/logoclarocom.jpg') no-repeat center center;
+  background-size: cover;
+
+  color: white;
+
+  min-height: 100vh;
+  min-height: 100dvh;
+
+  overflow-x: hidden;
+}
+
+/* =========================
+   OVERLAY
+========================= */
+.overlay{
+  position: fixed;
+  inset: 0;
+  
+  z-index: 0;
+  pointer-events: none;
+}
+
+
+/* =========================
+   CONTENEDOR PRINCIPAL
+========================= */
+.container {
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100vh;
+  min-height: 100dvh;
+
+  text-align: center;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* =========================
+   LOGO
+========================= */
+.logo img {
+  width: 320px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  margin-top: 6px;
+}
+
+/* =========================
+   BOTONES
+========================= */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 80%;
+  max-width: 350px;
+}
+
+.btn {
+  background: #1e1e1e;
+  border: none;
+  color: #fff;
+  padding: 15px;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+  background: #cfa731;
+  transform: scale(1.02);
+}
+
+/* =========================
+   SOCIAL
+========================= */
+.social {
+  margin-top: 30px;
+}
+
+.social p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.icons img {
+  width: 30px;
+  filter: invert(1);
+}
+
+/* =========================
+   PANEL DE MENÚ
+========================= */
+.menu-panel {
+  position: fixed;
+  inset: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  background: url('IMAGENES/logoclarocom.jpg') no-repeat center center;
+  background-size: cover;
+  
+
+  z-index: 999;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.menu-panel.show {
+  display: flex;
+  opacity: 1;
+  transform: translateX(0);
+  overflow: hidden;
+}
+
+/* =========================
+   CONTENEDOR MENÚ
+========================= */
+.menu-container {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  height: 85%;
+
+  background: url("IMAGENES/cont.jpg") center / cover no-repeat;
+  position: relative;
+
+  border-radius: 16px;
+  overflow: hidden;
+}
+.menu-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 0;
+}
+.menu-container > * {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+/* =========================
+   SIDEBAR
+========================= */
+.sidebar {
+  position: relative;
+  width: 25%;
+  padding: 20px;
+  overflow-y: auto;
+
+  background: url("IMAGENES/sliderofi.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.sidebar * {
+  position: relative;
+  z-index: 1;
+}
+
+.sidebar h3 {
+  position: sticky;
+  top: 10px;
+
+  margin: 0 10px 15px;
+  padding: 12px 16px;
+
+  text-align: center;
+  font-size: 1.05rem;
+  font-weight: 600;
+
+  background: #c0392b;
+  color: white;
+
+  border-radius: 14px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+
+  z-index: 10;            /* CLAVE */
+}
+
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 12px;
+  border-radius: 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s;
+
+  margin: 0 10px;        /* CLAVE: igual que el h3 */
+}
+
+
+.sidebar li.active,
+.sidebar li:hover {
+  background: #c07f2bde;
+}
+
+/* =========================
+   CONTENIDO MENÚ
+========================= */
+.menu-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.item {
+  background: #222;
+  border-radius: 12px;
+  padding: 10px;
+  transition: transform 0.2s ease;
+}
+
+.item:hover {
+  transform: scale(1.03);
+}
+
+.item-media{
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  background: rgba(255,255,255,0.06);
+}
+
+.item-media img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.no-img{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.25);
+}
+
+
+.item-content h4 {
+  margin: 10px 0 5px;
+}
+
+.price {
+  color: #f39c12;
+  font-weight: bold;
+}
+
+.ver-btn {
+  margin-top: 5px;
+  background: #e74c3c;
+  border: none;
+  padding: 6px 12px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.ver-btn:hover {
+  background: #c0392b;
+}
+
+/* =========================
+   BOTÓN CERRAR MENÚ
+========================= */
+.close-btn {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  background: black;
+  border: 2px solid white;
+  color: rgb(255, 255, 255);
+  padding: 6px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* =========================
+   MODAL PRODUCTO
+========================= */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  transform: scale(0.95);
+  transition: 0.3s;
+  z-index: 2000;
+}
+
+.modal.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.modal-content {
+  position: relative;
+  background: #111;
+  padding: 20px;
+  max-width: 500px;
+  width: 90%;
+  border-radius: 16px;
+  max-height: 90dvh;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.modal-content img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.modal h3 {
+  color: #f39c12;
+}
+
+.close-modal {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* =========================
+   RESPONSIVE MÓVIL
+========================= */
+@media (max-width: 768px) {
+
+ /* =========================
+     FONDOS SOLO MÓVIL
+  ========================= */
+
+  body {
+    background-image: url("IMAGENES/fondopagcelcom.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .menu-panel {
+    background-image: url("IMAGENES/fondopagcelcom.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .menu-container {
+    background-image: url("IMAGENES/contenedorcel.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .sidebar {
+    background-image: url("IMAGENES/slidercel.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* =========================
+     LAYOUT (EQUILIBRIO)
+  ========================= */
+
+  .sidebar {
+    width: 34%;
+    min-width: 34%;
+    padding: 10px;
+  }
+
+  .menu-content {
+    width: 66%;
+    padding: 12px;
+  }
+
+  .items {
+    grid-template-columns: 1fr;
+  }
+  /* =========================
+   FIX CLICK MÓVIL (CAPAS)
+========================= */
+
+  /* Panel menú */
+  .menu-panel {
+    z-index: 1000;
+    pointer-events: none;
+  }
+
+  .menu-panel.show {
+    pointer-events: auto;
+  }
+
+  /* Panel reserva */
+  .reserva-panel {
+    z-index: 1001; /* más alto que menú */
+    pointer-events: none;
+  }
+
+  .reserva-panel.show {
+    pointer-events: auto;
+  }
+
+  /* =========================
+     CATEGORÍAS (HEADER + ITEMS)
+  ========================= */
+
+  .sidebar h3,
+  .sidebar li {
+    margin: 0 8px 12px;
+    width: calc(100% - 16px);
+    box-sizing: border-box;
+    border-radius: 14px;
+    text-align: center;
+  }
+
+  /* HEADER "CATEGORIA" */
+   .sidebar h3 {
+    margin: 0 8px 12px;
+    width: calc(100% - 16px);
+    box-sizing: border-box;
+
+    padding: 10px 8px;
+    border-radius: 14px;
+    text-align: center;
+
+    position: sticky;
+    top: 8px;
+    z-index: 20;
+
+    /* 👇 CLAVE */
+    white-space: normal;      /* permite 2 líneas */
+    line-height: 1.1;
+    font-size: 0.85rem;       /* tamaño correcto para móvil */
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+  }
+
+  /* ITEMS */
+  .sidebar li {
+    padding: 10px 8px;
+    font-size: 0.82rem;
+    line-height: 1.05;
+    font-weight: 500;
+
+    white-space: normal;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;   /* máximo 2 líneas */
+    line-clamp: 3;
+    overflow: hidden;
+  }
+
+  .sidebar li.active {
+    font-weight: 600;
+  }
+
+  /* =========================
+     BOTÓN VOLVER
+  ========================= */
+
+  .close-btn {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    top: auto;
+    background: rgba(0,0,0,0.7);
+    padding: 8px 16px;
+    z-index: 9999;
+    pointer-events: auto;
+  }
+}
+
+
+#categoryTitle {
+  display: none !important;
+}
+
+body {
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+a.btn {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}

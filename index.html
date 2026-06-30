@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEOM Gastrobar Food & Drink</title>
+
+  <link rel="icon" type="image" href="IMAGENES/LOGO_DEFINITIVO_COM.jpg?v=51" />
+  <link rel="stylesheet" href="style.css?v=51" />
+  <link rel="stylesheet" href="CSS/reserva.css?v=51" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+  <div class="overlay"></div>
+
+  <div class="container">
+    <div class="logo">
+      <img src="IMAGENES/LOGO_DEFINITIVO_COM.jpg?v=51" alt="Logo Gastrobar" />
+    </div>
+
+    <div class="buttons">
+      <button class="btn" id="menuBtn">🍴 MENÚ</button>
+
+       <!-- 🔥 BOTÓN QUE ABRE EL NUEVO MENÚ -->
+      <button class="btn" id="reservaBtn">🧑‍💻 RESERVAR UNA MESA</button>
+
+            <a href="https://wa.me/3116723728" target="_blank" class="btn">
+          📦 PEDIR Y RECOGERLO EN EL RESTAURANTE
+            </a>
+
+        
+
+        <a href="https://maps.app.goo.gl/4w1zFZWyyeoVvJ5cA" target="_blank" class="btn">
+          📍MAPS
+        </a>
+    </div>
+
+    <div class="social">
+      <p>Síguenos</p>
+      <div class="icons">
+        <a href="https://www.instagram.com/neomgastrobar?igsh=MWZnemMyNTExNjY3Ng%3D%3D&utm_source=qr">
+          <img src="IMAGENES/INSTAGRAM-LG.jpg?v=51" alt="Instagram">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================
+       MENÚ ORIGINAL
+  ========================= -->
+  <div class="menu-panel" id="menuPanel">
+    <div class="menu-container">
+      <aside class="sidebar">
+        <h3>CATEGORIAS</h3>
+
+        <ul id="categoryList">
+          <li class="active" data-category="Entradas">ENTRADAS</li>
+          <li data-category="ALMUERZOS">ARROCES</li>
+          <li data-category="ENSALADAS">ENSALADAS</li>
+          <li data-category="CORTES_CARNES">CORTES DE CARNE</li>
+          <li data-category="PASTAS">PASTAS</li>
+          <li data-category="COMPARTIR">PARRILLADA</li>
+          <li data-category="BURGERS">BURGERS</li>
+          <li data-category="HOTDOG">HOT DOG</li>
+          <li data-category="SANDWICHES">SANDWICHES</li>
+          <li data-category="KIDS">MENÚ KIDS</li>
+          <li data-category="BEBIDAS">BEBIDAS</li>
+          <li data-category="CERVEZAS">CERVEZAS</li>
+          <li data-category="COCTEL">CÓCTELES</li>
+          <li data-category="VINOS">VINOS</li>
+          <li data-category="AGUARDIENTES">AGUARDIENTES</li>
+          <li data-category="WHISKYS">WHISKYS</li>
+          <li data-category="RON">RON</li>
+          <li data-category="GINEBRAS">GINEBRAS</li>
+          <li data-category="TEQUILAS">TEQUILAS</li>
+          <li data-category="ADICIONALES">ADICIONALES</li>
+        </ul>
+      </aside>
+
+      <main class="menu-content">
+        <h2 id="categoryTitle">Hot Dogs</h2>
+        <div class="items" id="itemsContainer"></div>
+      </main>
+    </div>
+
+    <button class="close-btn" id="closeMenu">← Volver</button>
+  </div>
+
+  <div class="reserva-panel menu-panel" id="reservaPanel">
+
+    <div class="reserva-container menu-container">
+
+      <aside class="reserva-sidebar sidebar">
+        <h3>CATEGORIA</h3>
+
+        <ul id="reservaCategoryList">
+          <li class="active" data-category="Entradas">COMBOS</li>
+        
+        </ul>
+      </aside>
+
+      <main class="reserva-content menu-content">
+        <h2 id="reservaCategoryTitle">Entradas</h2>
+        <div class="reserva-items items" id="reservaItemsContainer"></div>
+      </main>
+
+    </div>
+
+    <button class="reserva-close-btn close-btn" id="closeReserva">← Volver</button>
+  </div>
+
+  <!-- JS -->
+  <script src="script.js?v=51"></script>
+  <script src="JS/reserva.js?v=51"></script>
+</body>
+</html>
