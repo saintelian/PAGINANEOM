@@ -41,7 +41,7 @@ const data = {
     { name: "Pollo Saltado", desc: "Arroz saltado con verduras, soya, jengibre y ajonjolí. Acompañado de pollo en cubos, tomate, cebolla roja y papas a la francesa.", price: "$37.000", img: "IMAGENES/pollosal.jpg" },
     { name: "Lomo Saltado", desc: "Arroz saltado con verduras, soya, jengibre y ajonjolí. Acompañado de lomo en cubos, tomate, cebolla roja y papas a la francesa.", price: "$40.000", img: "IMAGENES/lomosal.jpg" },
     { name: "Pollo Cremoso", desc: "Arroz saltado con tocineta y champiñones en crema de leche y parmesano. Acompañado de pechuga de pollo y cebollín.", price: "$39.000", img: "IMAGENES/lomocremoso.jpg" },
-    { name: "Lomo Cremoso", desc: "Arroz saltado con tocineta y champiñones en crema de leche y parmesano. Acompañado de lomo y cebollín.", price: "$40.000", img: "IMAGENES/lomocre.jpg" },
+    { name: "Lomo Cremoso", desc: "Arroz saltado con tocineta y champiñones en crema de leche y parmesano. Acompañado de lomo y cebollín.", price: "$49.000", img: "IMAGENES/lomocre.jpg" },
     { name: "Arroz de Camarón y Chorizo", desc: "Arroz saltado con verduras, jengibre y ajonjolí. Acompañado de camarones salteados con chorizo artesanal de cerdo.", price: "$43.000", img: "IMAGENES/arrozcama.jpg" },
     { name: "Wok Neom", desc: "Arroz saltado con pollo, lomo, chorizo artesanal, raíz china, wonton frito y chicharrón crujiente.", price: "$50.000", img: "IMAGENES/wokneom.jpg" },
     { name: "Salmón Neom", desc: "Arroz saltado cremoso con tocineta y champiñones, terminado con parmesano y acompañado de salmón en salsa teriyaki.", price: "$57.000", img: "IMAGENES/salmonew.jpg" }
