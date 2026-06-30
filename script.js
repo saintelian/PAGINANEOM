@@ -39,7 +39,7 @@ const data = {
 
   ALMUERZOS: [
     { name: "Pollo Saltado", desc: "Arroz saltado con verduras, soya, jengibre y ajonjolí. Acompañado de pollo en cubos, tomate, cebolla roja y papas a la francesa.", price: "$37.000", img: "IMAGENES/pollosal.jpg" },
-    { name: "Lomo Saltado", desc: "Arroz saltado con verduras, soya, jengibre y ajonjolí. Acompañado de lomo en cubos, tomate, cebolla roja y papas a la francesa.", price: "$40.000", img: "IMAGENES/lomosal.jpg" },
+    { name: "Lomo Saltado", desc: "Arroz saltado con verduras, soya, jengibre y ajonjolí. Acompañado de lomo en cubos, tomate, cebolla roja y papas a la francesa.", price: "$49.000", img: "IMAGENES/lomosal.jpg" },
     { name: "Pollo Cremoso", desc: "Arroz saltado con tocineta y champiñones en crema de leche y parmesano. Acompañado de pechuga de pollo y cebollín.", price: "$39.000", img: "IMAGENES/lomocremoso.jpg" },
     { name: "Lomo Cremoso", desc: "Arroz saltado con tocineta y champiñones en crema de leche y parmesano. Acompañado de lomo y cebollín.", price: "$49.000", img: "IMAGENES/lomocre.jpg" },
     { name: "Arroz de Camarón y Chorizo", desc: "Arroz saltado con verduras, jengibre y ajonjolí. Acompañado de camarones salteados con chorizo artesanal de cerdo.", price: "$43.000", img: "IMAGENES/arrozcama.jpg" },
