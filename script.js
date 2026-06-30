@@ -31,6 +31,7 @@ const data = {
     { name: "Ronda De Tacos x3", desc: "Tres (3) tacos surtidos: pollo crispy con salsa de ajo; cochinita con BBQ y chipotle; y carne asada con pico de gallo.", price: "$35.000", img: "IMAGENES/tacos.jpg" },
     { name: "Mini Burger x3", desc: "Tres (3) mini hamburguesas con la receta especial del chef.", price: "$36.000", img: "IMAGENES/triomin.png" },
     { name: "Copa Ceviche Neom", desc: "Ceviche caribeño de camarón con chips de plátano", price: "$28.900", img: "IMAGENES/copaneom.jpeg" },
+    { name: "Ceviche Chicharron y Chorizo", desc: "Ceviche de camarón con chicharrón y chorizo artesanal en hoguera", price: "$40.000", img: "IMAGENES/hoguera.jpeg" },
   ],
 
   ENSALADAS: [
