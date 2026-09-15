@@ -74,7 +74,7 @@ const data = {
     { name: "Spicy & Sweet Burger", desc: "Pan premiun con ajonjoli negro acompañada con carne burger carne de 130gr, mozzarella, pimentones caramelizados y salsa de la casa. Servida con papas.", price: "$33.000", img: "IMAGENES/spicy.jpg" },
     { name: "Burger Whopper", desc: "Pan premiun con ajonjoli negro acompañada con carne burger carne de 130gr, mozzarella apanado, cebolla caramelizada y tocineta. Servida con papas.", price: "$46.000", img: "IMAGENES/whop.jpg" },
     { name: "The Big Boss", desc: "Pan premiun con ajonjoli negro acompañada con carne doble de 130gr, doble queso cheddar, doble tocineta y salsa de la casa. Servida con papas.", price: "$46.000", img: "IMAGENES/hamburguesan.png" },
-    { name: "La Patrona", desc: "Pan premiun con ajonjoli negro acompañada con carne doble de 130gr, piña caramelizada, salsa de la casa, Dip dulce & salado, lechuga y tomate. Servida con papas.", price: "$48.000", img: "IMAGENES/lapatrona.png" },
+    { name: "La Patrona", desc: "Pan premiun con ajonjoli negro acompañada con carne doble de 130gr, piña caramelizada, salsa de la casa, Dip dulce & salado, lechuga y tomate. Servida con papas.", price: "$48.000", img: "IMAGENES/lapatrona.jpg" },
   ],
 
   HOTDOG: [
