@@ -66,14 +66,14 @@ const data = {
   ],
 
   BURGERS: [
-    { name: "La Jefa", desc: "Pan artesano con filete de pescado apanado, cebolla cevichada con leche de tigre, lechuga romana,  mix de quezos mozzarella y cheddar. Servida con papas. ", price: "$36.000", img: "IMAGENES/jefaham.png" },
-    { name: "Chori Burger", desc: "Pan artesano con carne de chorizo, mozzarella, salsa chipotle, tomate y lechuga. Servida con papas.", price: "$45.000", img: "IMAGENES/chori.jpg" },
-    { name: "Burger Crispy Cesar", desc: "Pan artesano con pollo apanado, mozzarella y salsa de ajo, con mix de lechugas y parmesano. Servida con papas.", price: "$44.000", img: "IMAGENES/crisp.jpg" },
-    { name: "Cheese Bacon Burger", desc: "Pan artesano con carne burger, queso amarillo, tocineta, cebolla roja y pepinillos. Servida con papas.", price: "$44.000", img: "IMAGENES/bacon.jpg" },
-    { name: "Burger OG", desc: "Carne burger, doble queso, chorizo artesanal, tocineta y salsas de la casa. Servida con papas.", price: "$48.000", img: "IMAGENES/burgerog.jpg" },
-    { name: "Spicy & Sweet Burger", desc: "Carne burger, mozzarella, pimentones caramelizados y salsa de la casa. Servida con papas.", price: "$45.000", img: "IMAGENES/spicy.jpg" },
-    { name: "Burger Whopper", desc: "Carne burger, mozzarella apanado, cebolla caramelizada y tocineta. Servida con papas.", price: "$46.000", img: "IMAGENES/whop.jpg" },
-    { name: "The Big Boss", desc: "Doble carne burger, doble queso cheddar, doble tocineta y salsa de la casa. Servida con papas.", price: "$46.000", img: "IMAGENES/hamburguesan.png" },
+   { name: "La Jefa", desc: "Pan Pretzel con filete de pescado apanado, cebolla encurtida, lechuga romana,  mix de quezos mozzarella y cheddar. Servida con papas. ", price: "$42.000", img: "IMAGENES/jefaham.png" },
+    { name: "Chori Burger", desc: "Pan premiun con ajonjoli negro acompañada con carne de 130gr, chorizo, mozzarella, salsa chipotle, tomate y lechuga. Servida con papas.", price: "$45.000", img: "IMAGENES/chori.jpg" },
+    { name: "Burger Crispy Cesar", desc: "Pan premiun con ajonjoli negro acompañada pollo apanado, mozzarella y salsa de ajo, con mix de lechugas y parmesano. Servida con papas.", price: "$36.000", img: "IMAGENES/crisp.jpg" },
+    { name: "Cheese Bacon Burger", desc: "Pan premiun con ajonjoli negro acompañada con carne burger, queso amarillo, tocineta, cebolla roja y pepinillos. Servida con papas.", price: "$33.000", img: "IMAGENES/bacon.jpg" },
+    { name: "Burger OG", desc: "Pan premiun con ajonjoli negro acompañada con carne de 130gr, doble queso, chorizo artesanal, tocineta y salsas de la casa. Servida con papas.", price: "$48.000", img: "IMAGENES/burgerog.jpg" },
+    { name: "Spicy & Sweet Burger", desc: "Pan premiun con ajonjoli negro acompañada con carne burger carne de 130gr, mozzarella, pimentones caramelizados y salsa de la casa. Servida con papas.", price: "$33.000", img: "IMAGENES/spicy.jpg" },
+    { name: "Burger Whopper", desc: "Pan premiun con ajonjoli negro acompañada con carne burger carne de 130gr, mozzarella apanado, cebolla caramelizada y tocineta. Servida con papas.", price: "$46.000", img: "IMAGENES/whop.jpg" },
+    { name: "The Big Boss", desc: "Pan premiun con ajonjoli negro acompañada con carne doble de 130gr, doble queso cheddar, doble tocineta y salsa de la casa. Servida con papas.", price: "$46.000", img: "IMAGENES/hamburguesan.png" },
   ],
 
   HOTDOG: [
