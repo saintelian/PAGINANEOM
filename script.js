@@ -66,7 +66,7 @@ const data = {
   ],
 
   BURGERS: [
-    { name: "La Jefa", desc: "Pan Pretzel con filete de pescado apanado, cebolla encurtida, lechuga romana,  mix de quezos mozzarella y cheddar. Servida con papas. ", price: "$42.000", img: "IMAGENES/jefaham.jpg" },
+    { name: "La Jefa", desc: "Pan Pretzel con filete de pescado apanado, cebolla encurtida, lechuga romana,  mix de quezos mozzarella y cheddar. Servida con papas. ", price: "$42.000", img: "IMAGENES/lajefa.jpg" },
     { name: "Chori Burger", desc: "Pan premiun con ajonjoli negro acompañada con carne de 130gr, chorizo, mozzarella, salsa chipotle, tomate y lechuga. Servida con papas.", price: "$45.000", img: "IMAGENES/chori.jpg" },
     { name: "Burger Crispy Cesar", desc: "Pan premiun con ajonjoli negro acompañada pollo apanado, mozzarella y salsa de ajo, con mix de lechugas y parmesano. Servida con papas.", price: "$36.000", img: "IMAGENES/crisp.jpg" },
     { name: "Cheese Bacon Burger", desc: "Pan premiun con ajonjoli negro acompañada con carne burger, queso amarillo, tocineta, cebolla roja y pepinillos. Servida con papas.", price: "$33.000", img: "IMAGENES/bacon.jpg" },
@@ -74,7 +74,7 @@ const data = {
     { name: "Spicy & Sweet Burger", desc: "Pan premiun con ajonjoli negro acompañada con carne burger carne de 130gr, mozzarella, pimentones caramelizados y salsa de la casa. Servida con papas.", price: "$33.000", img: "IMAGENES/spicy.jpg" },
     { name: "Burger Whopper", desc: "Pan premiun con ajonjoli negro acompañada con carne burger carne de 130gr, mozzarella apanado, cebolla caramelizada y tocineta. Servida con papas.", price: "$46.000", img: "IMAGENES/whop.jpg" },
     { name: "The Big Boss", desc: "Pan premiun con ajonjoli negro acompañada con carne doble de 130gr, doble queso cheddar, doble tocineta y salsa de la casa. Servida con papas.", price: "$46.000", img: "IMAGENES/hamburguesan.png" },
-    { name: "La Patrona", desc: "Pan premiun con ajonjoli negro acompañada con carne doble de 130gr, piña caramelizada, salsa de la casa, Dip dulce & salado, lechuga y tomate. Servida con papas.", price: "$48.000", img: "IMAGENES/lapatrona.jpg" },
+    { name: "La Patrona", desc: "Pan premiun con ajonjoli negro acompañada con carne doble de 130gr, piña caramelizada, salsa de la casa, Dip dulce & salado, lechuga y tomate. Servida con papas.", price: "$48.000", img: "IMAGENES/lapatro.jpg" },
   ],
 
   HOTDOG: [
