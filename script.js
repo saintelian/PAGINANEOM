@@ -25,7 +25,6 @@ const data = {
     { name: "Onion Rings", desc: "Doce (12) aros de cebolla crujientes, acompañados de salsa de pepinillo.", price: "$27.000", img: "IMAGENES/onion.jpg" },
     { name: "Ceviche Neom", desc: "Cubos de tilapia marinados en leche de tigre, acompañados de salsa de cilantro, wonton crujiente, aguacate, cebolla encurtida y un toque de tajín.", price: "$40.000", img: "IMAGENES/cevicheneom.jpg" },
     { name: "Nachos Carne Molida", desc: "Totopos crujientes cubiertos con carne molida, queso amarillo y queso blanco, acompañados de pico de gallo, guacamole, sour cream y jalapeños.", price: "$35.000", img: "IMAGENES/nachoscarne.jpg" },
-    { name: "Mozzarella Fingers", desc: "Palitos de mozzarella apanados y dorados, acompañados de salsa napolitana.", price: "$30.000", img: "IMAGENES/mozzafin.jpg" },
     { name: "Mini Hot Dog x3", desc: "Tres (3) mini hot dogs en pan artesano, con salchicha ranchera, salsa de ajo, dip dulce y salado, y salsa de la casa.", price: "$36.000", img: "IMAGENES/triodog.jpg" },
     { name: "Mini Choripanes x3", desc: "Tres (3) mini choripanes en pan artesano, con chorizo, salsa de ajo y chimichurri.", price: "$36.000", img: "IMAGENES/choripan.jpg" },
     { name: "Ronda De Tacos x3", desc: "Tres (3) tacos surtidos: pollo crispy con salsa de ajo; cochinita con BBQ y chipotle; y carne asada con pico de gallo.", price: "$35.000", img: "IMAGENES/tacos.jpg" },
