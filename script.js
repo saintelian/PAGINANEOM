@@ -22,7 +22,6 @@ if (!menuBtn || !menuPanel || !categoryList || !itemsContainer) {
 const data = {
   Entradas: [
     { name: "Fundido De Quesos", desc: "Mezcla de queso cheddar y queso blanco fundidos, acompañados de ragú de carne molida, cebolla encurtida y salsa de ajo.", price: "$33.000", img: "IMAGENES/fundidoqueso.jpg" },
-    { name: "Onion Rings", desc: "Doce (12) aros de cebolla crujientes, acompañados de salsa de pepinillo.", price: "$27.000", img: "IMAGENES/onion.jpg" },
     { name: "Ceviche Neom", desc: "Cubos de tilapia marinados en leche de tigre, acompañados de salsa de cilantro, wonton crujiente, aguacate, cebolla encurtida y un toque de tajín.", price: "$40.000", img: "IMAGENES/cevicheneom.jpg" },
     { name: "Nachos Carne Molida", desc: "Totopos crujientes cubiertos con carne molida, queso amarillo y queso blanco, acompañados de pico de gallo, guacamole, sour cream y jalapeños.", price: "$35.000", img: "IMAGENES/nachoscarne.jpg" },
     { name: "Mini Hot Dog x3", desc: "Tres (3) mini hot dogs en pan artesano, con salchicha ranchera, salsa de ajo, dip dulce y salado, y salsa de la casa.", price: "$36.000", img: "IMAGENES/triodog.jpg" },
@@ -110,7 +109,6 @@ const data = {
     { name: "Soda Frutos rojos", desc: "Elaborada a base de Hatsu.", price: "$18.900", img: "IMAGENES/frutorojo.jpg" },
     { name: "Soda Frutos Amarillos", desc: "Elaborada a base de Hatsu.", price: "$18.900", img: "IMAGENES/amarillo.jpg" },
     { name: "Soda de Lyche", desc: "Elaborada a base de Hatsu.", price: "$18.900", img: "IMAGENES/liche.jpg" },
-    { name: "Soda Lulo house", desc: "Elaborada a base de Hatsu.", price: "$18.900", img: "IMAGENES/slulo.jpg" },
     { name: "Red Bull", desc: "Clásica, Sugarfree o Red Edition.", price: "$15.900", img: "IMAGENES/redbull.jpg" },
     { name: "Gatorade", desc: "", price: "$11.900", img: "IMAGENES/gatorade.jpg" }
   ],
